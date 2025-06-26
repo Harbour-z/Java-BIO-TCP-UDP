@@ -45,6 +45,6 @@ public class TcpLoginClient {
   }
 
   public static void main(String[] args) throws IOException {
-    new TcpLoginClient(serverIp, 8990).start();
+    new TcpLoginClient("127.0.0.1", 8990).start();
   }
 }
